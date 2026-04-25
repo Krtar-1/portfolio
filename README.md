@@ -24,3 +24,5 @@ npm run dev
 
 ## Deployment
 Deployed using GitHub Pages
+
+Portfolio deployment test.
