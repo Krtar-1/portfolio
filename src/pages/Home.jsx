@@ -12,7 +12,7 @@ function Home() {
       >
         <h1>Welcome to My Portfolio</h1>
         <p>
-          Hi, I’m Carter Glidewell. I’m a web development student building
+          Hi, I’m Carter Glidewell. I’m a web development graduate building
           responsive, interactive websites using React, JavaScript, HTML, CSS,
           PHP, and MySQL.
         </p>

@@ -1,6 +1,12 @@
+import { motion } from "framer-motion";
+
 function ProjectCard({ title, description, image, link }) {
   return (
-    <article className="project-card">
+    <motion.article
+      className="project-card"
+      whileHover={{ y: -8 }}
+      transition={{ duration: 0.25 }}
+    >
       <img src={image} alt={title} />
 
       <div className="project-info">
@@ -11,7 +17,7 @@ function ProjectCard({ title, description, image, link }) {
           View Project
         </a>
       </div>
-    </article>
+    </motion.article>
   );
 }
 
