@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import ProjectCard from "../components/ProjectCard";
+import goblinImg from "../assets/images/goblin.png";
+import mangotImg from "../assets/images/mangot.png";
 
 function Projects() {
   const projects = [
@@ -7,14 +9,14 @@ function Projects() {
       title: "Goblin Gizmos",
       description:
       "A team-built collection website featuring collectibles, categories, and a clean interface for browsing and viewing items. Developed collaboratively with a focus on organization and usability.",
-      image: "src/assets/images/goblin.png",
+      image: goblinImg,
       link: "https://students.gaim.ucf.edu/~je686804/goblingizmos/index.php"
     },
     {
       title: "Mangot Book Collection",
       description:
         "A personal book collection website built to organize and browse my own library. Features categorized collections, clean UI design, and a structured layout for managing and viewing books.",
-      image: "src/assets/images/mangot.png",
+      image: mangotImg,
       link: "https://mangot-app.netlify.app/collection.html"
     },
     {
